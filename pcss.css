@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration:none;
+}
+.head{
+    top: 0;
+    position: fixed;
+    width:100%;
+    background-color:#042331;
+    color: rgba(0, 225, 255, 0.973);
+    font-size: 30px;
+    line-height:60px;
+}
+
+.nav{
+    border: 1px solid transparent;
+    position: fixed;
+    width:100%;
+    margin-top:40px;
+    background-color: black;
+    overflow: auto;
+    font-size: 2vw;
+}
+
+.nav ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    margin-left: 32.5vw;
+}
+
+.nav ul li{
+    float:left;
+    padding: 4px 0;
+    margin: 5px 10px;
+}
+
+.nav ul li input{
+    padding:5px;
+    text-decoration:none;
+    color:black;
+    border-radius: 8px;
+}
+
+#btn1, #btn2, #btn3{
+    width:150px;
+    background-color:black;
+    color:white;
+    border:1px solid transparent;
+}
+
+#btn1:hover{
+    background-color:white;
+    color: black;
+}
+
+#btn2:hover{
+    background-color:white;
+    color: black;
+}
+
+#btn3:hover{
+    background-color:white;
+    color: black;
+}
+
+section{
+    margin-top:125px;
+    margin-left:10px;
+    margin-right:10px;
+}
+#Activation header{
+    margin-top:80px;
+    line-height: 40px;;
+    background-color: orange;
+    border-radius:5px;
+}
+
+#Activation header h2{
+    margin-left:15px;;
+}
+
+.Activation{
+    margin-top:20px;
+}
+
+.Activation input{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#activate {
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+
+input {
+    text-align: center;
+  }
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  :-moz-placeholder {
+    text-align: center;
+  }
+
+  #details header{
+    margin-top:80px;
+    line-height: 40px;;
+    background-color: orange;
+    border-radius:5px;
+}
+
+#details header h2{
+    margin-left:15px;;
+}
+
+#Modif{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#Modif h3{
+    margin-top:30px;
+    line-height: 40px;;
+    background-color: violet;
+    border-radius:5px;
+    border: 1px solid black;
+}
+#detl{
+	background: #F8F8F8;
+	border: 1px solid black;
+}
+#form{
+    margin-left: 200px;
+}
+
+#form label{
+    margin-left: 20px;
+}
+
+#form input{
+    height: 30px;
+    width: 300px;
+}
+
+#form input[type=email],
+#form input[type=textarea]{
+    width: 300px;
+}
+
+#form button{
+    margin-left:200px;
+    width: 150px;
+    height: 30px;
+}
+
+#change{
+    background-color: blue;
+}
+#clear{
+    background-color: red;
+}
